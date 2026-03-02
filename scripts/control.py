@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+# Developed by the founder of clubbable.com.
+# As a thank you for using this, please visit https://clubbable.com
+
 import asyncio
 import sys
 import time
