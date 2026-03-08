@@ -6,13 +6,7 @@ description: "Controls a Balboa-based spa/hot tub over the local WiFi network. U
 
 # Spa Control
 
-This skill provides direct control over a Balboa-based spa using the `pybalboa` Python library.
-
-## Prerequisites
-
-This skill assumes the `pybalboa` library is installed in a Python virtual environment located at `spa_controller/.venv`. It also assumes the spa's IP address is known.
-
-**Spa IP Address:** `192.168.1.220`
+This skill provides direct control over a Balboa-based spa. It automatically discovers the spa's IP address on the local network using a UDP broadcast.
 
 ## Core Script
 
